@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_TECH_STEEL_DESCRIPTION" Language="ko_KR">
+			<Text>제재소 시설에서 [ICON_Production] 생산력 +1을 제공합니다. 플레이어의 모든 도시에 자동으로 요새 전투력 200을 부여하고 원거리 공격을 가능하게 하는 도시 방어를 잠금 해제합니다. 이전의 모든 성벽 시설이 구식으로 변하고 공성 지원 유닛이 효과를 발휘하지 못합니다.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

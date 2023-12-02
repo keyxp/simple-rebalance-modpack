@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Simple Buff Rationalism Policies to 15 3</Name>
+    <Guid>e1e9966c-fe4f-47ee-97e2-a45964bf37c3</Guid>
+    <ProjectGuid>67fd544b-1600-4585-9c49-d15cbd85de3f</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Ease the adjacency conditions of Grand Opera, Rationalism, and Simultaneum</Teaser>
+    <Description>Grand Opera, Rationalism, Simultaneum: district has at least +3(instead of 4) adjacency bonus[NEWLINE][NEWLINE]Languages: en-US, ko-KR</Description>
+    <Authors>keyxp</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+    <AssemblyName>Simple Buff Rationalism Policies to 15 3</AssemblyName>
+    <RootNamespace>Simple Buff Rationalism Policies to 15 3</RootNamespace>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="SB_Rationalism_Policies_To_15_3_ID"><Properties><LoadOrder>1</LoadOrder></Properties><File>Ingame/Data.sql</File></UpdateDatabase><UpdateText id="SB_Rationalism_Policies_To_15_3_IT"><Properties><LoadOrder>1</LoadOrder></Properties><File>Ingame/Text_en_US.xml</File><File>Ingame/Text_ko_KR.xml</File></UpdateText></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Simple_Buff_Rationalism_Policies_to_15_3.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Ingame\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ingame\Data.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Ingame\Text_en_US.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Ingame\Text_ko_KR.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

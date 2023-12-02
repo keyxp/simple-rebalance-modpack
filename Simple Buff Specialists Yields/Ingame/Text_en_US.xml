@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_2" Language="en_US">
+			<Text>Scientists work in the Campus and provide +3 [ICON_SCIENCE] Science.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_3" Language="en_US">
+			<Text>Priests work in the Holy Site and provide +3 [ICON_FAITH] Faith.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_4" Language="en_US">
+			<Text>Commanders work in the Encampment and provide +2 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_5" Language="en_US">
+			<Text>Captains work in the Harbor and provide +1 [ICON_FOOD] Food and +4 [ICON_GOLD] Gold.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_6" Language="en_US">
+			<Text>Merchants work in the Commercial Hub and provide +6 [ICON_GOLD] Gold.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_7" Language="en_US">
+			<Text>Engineers work in the Industrial Zone and provide +3 [ICON_PRODUCTION] Production.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_8" Language="en_US">
+			<Text>Artists work in the Theater and provide +3 [ICON_CULTURE] Culture.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

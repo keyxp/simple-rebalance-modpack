@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_2" Language="ko_KR">
+			<Text>과학자는 캠퍼스에서 일하며 [ICON_SCIENCE] 과학 +3를 제공합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_3" Language="ko_KR">
+			<Text>성직자는 성지에서 일하며 [ICON_FAITH] 신앙 +3를 제공합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_4" Language="ko_KR">
+			<Text>사령관은 주둔지에서 일하며 [ICON_PRODUCTION] 생산력 +2과 [ICON_Gold] 금 +2를 제공합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_5" Language="ko_KR">
+			<Text>선장은 항만에서 일하며 [ICON_FOOD] 식량 +1과 [ICON_GOLD] 금 +4를 제공합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_6" Language="ko_KR">
+			<Text>상인은 상업 중심지에서 일하며 [ICON_GOLD] 금 +6를 제공합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_7" Language="ko_KR">
+			<Text>기술자는 산업구역에서 일하며 [ICON_PRODUCTION] 생산력 +3를 제공합니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_8" Language="ko_KR">
+			<Text>예술가는 극장가에서 일하며 [ICON_CULTURE] 문화 +3를 제공합니다.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

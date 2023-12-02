@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# ModBuddy Solution File, Format Version 12.00
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "Simple Buff 4 Modern Units Resource", "Simple Buff 4 Modern Units Resource\Simple Buff 4 Modern Units Resource.civ6proj", "{2AFEAAA9-F10E-4B21-B49F-AE48EF92022F}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "Simple Buff Specialists Yields", "Simple Buff Specialists Yields\Simple Buff Specialists Yields.civ6proj", "{6DC74E98-AB2A-465A-BA84-7DF50C1C8CCA}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "Simple Buff Rationalism Policies To 15 3", "Simple Buff Rationalism Policies To 15 3\Simple Buff Rationalism Policies to 15 3.civ6proj", "{67FD544B-1600-4585-9C49-D15CBD85DE3F}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "Simple Buff 2 Modern Units Resource", "Simple Buff 2 Modern Units Resource\Simple Buff 2 Modern Units Resource.civ6proj", "{5A699767-FC9D-4667-B417-0B01E5FA8D4E}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "Simple Nerf Walls HP", "Simple Nerf Walls HP\Simple Nerf Walls HP.civ6proj", "{16D92D66-C1DC-488A-8839-2BC31C55FF67}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "Simple Buff Modern Units Strength", "Simple Buff Modern Units Strength\Simple Buff Modern Units Strength.civ6proj", "{A0E479E8-7A55-4BCC-9F47-5952FFE0DF56}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "Simple Buff Pen Brush and Voice", "Simple Buff Pen Brush and Voice\Simple Buff Pen Brush and Voice.civ6proj", "{6432BF59-B8F4-4BD2-AD31-DE2DE618CDAE}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "Simple Buff Rationalism Policies To 10 3", "Simple Buff Rationalism Policies To 10 3\Simple Buff Rationalism Policies to 10 3.civ6proj", "{C7BC1AF5-5F9F-401D-BFC4-4808171D6AA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Civ6 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AFEAAA9-F10E-4B21-B49F-AE48EF92022F}.Default|Civ6.ActiveCfg = Default|Civ6
+		{2AFEAAA9-F10E-4B21-B49F-AE48EF92022F}.Default|Civ6.Build.0 = Default|Civ6
+		{6DC74E98-AB2A-465A-BA84-7DF50C1C8CCA}.Default|Civ6.ActiveCfg = Default|Civ6
+		{6DC74E98-AB2A-465A-BA84-7DF50C1C8CCA}.Default|Civ6.Build.0 = Default|Civ6
+		{67FD544B-1600-4585-9C49-D15CBD85DE3F}.Default|Civ6.ActiveCfg = Default|Civ6
+		{67FD544B-1600-4585-9C49-D15CBD85DE3F}.Default|Civ6.Build.0 = Default|Civ6
+		{5A699767-FC9D-4667-B417-0B01E5FA8D4E}.Default|Civ6.ActiveCfg = Default|Civ6
+		{5A699767-FC9D-4667-B417-0B01E5FA8D4E}.Default|Civ6.Build.0 = Default|Civ6
+		{16D92D66-C1DC-488A-8839-2BC31C55FF67}.Default|Civ6.ActiveCfg = Default|Civ6
+		{16D92D66-C1DC-488A-8839-2BC31C55FF67}.Default|Civ6.Build.0 = Default|Civ6
+		{A0E479E8-7A55-4BCC-9F47-5952FFE0DF56}.Default|Civ6.ActiveCfg = Default|Civ6
+		{A0E479E8-7A55-4BCC-9F47-5952FFE0DF56}.Default|Civ6.Build.0 = Default|Civ6
+		{6432BF59-B8F4-4BD2-AD31-DE2DE618CDAE}.Default|Civ6.ActiveCfg = Default|Civ6
+		{6432BF59-B8F4-4BD2-AD31-DE2DE618CDAE}.Default|Civ6.Build.0 = Default|Civ6
+		{C7BC1AF5-5F9F-401D-BFC4-4808171D6AA0}.Default|Civ6.ActiveCfg = Default|Civ6
+		{C7BC1AF5-5F9F-401D-BFC4-4808171D6AA0}.Default|Civ6.Build.0 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

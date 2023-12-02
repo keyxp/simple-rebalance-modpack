@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Simple Buff Specialists Yields</Name>
+    <Guid>9fa877f4-16d0-4f40-aefd-e205586009dc</Guid>
+    <ProjectGuid>6dc74e98-ab2a-465a-ba84-7df50c1c8cca</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Increase yields of specialists</Teaser>
+    <Description>Scientist: +3(instead of 2) [ICON_SCIENCE] Science[NEWLINE][NEWLINE]Priest: +3(instead of 2) [ICON_FAITH] Faith[NEWLINE][NEWLINE]Commander: +2(instead of 1) [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold[NEWLINE][NEWLINE]Captain: +1 [ICON_FOOD] Food and +4(instead of 2) [ICON_GOLD] Gold[NEWLINE][NEWLINE]Merchant: +6(instead of 4) [ICON_GOLD] Gold[NEWLINE][NEWLINE]Engineer: +3(instead of 2) [ICON_PRODUCTION] Production[NEWLINE][NEWLINE]Artist: +3(instead of 2) [ICON_CULTURE] Culture[NEWLINE][NEWLINE][NEWLINE]Language: en-US, ko-KR</Description>
+    <Authors>keyxp</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssemblyName>Simple Buff Specialists Yields</AssemblyName>
+    <RootNamespace>Simple Buff Specialists Yields</RootNamespace>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="SB_Specialists_Yields_ID"><Properties><LoadOrder>100000</LoadOrder></Properties><File>Ingame/Data.sql</File></UpdateDatabase><UpdateText id="SB_Specialists_Yields_IT"><Properties><LoadOrder>100000</LoadOrder></Properties><File>Ingame/Text_en_US.xml</File><File>Ingame/Text_ko_KR.xml</File></UpdateText></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Simple_Buff_Specialists_Yields.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Ingame\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ingame\Data.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Ingame\Text_en_US.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Ingame\Text_ko_KR.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>
