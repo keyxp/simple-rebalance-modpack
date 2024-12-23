@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>[SR] Artillery No Oil</Name>
+    <Guid>c441219e-b6c8-44c4-8a3b-e232c70fc2aa</Guid>
+    <ProjectGuid>2afeaaa9-f10e-4b21-b49f-ae48ef92022f</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Artillery no longer require Oil</Teaser>
+    <Description>Artillery(including UU): require no resources(instead of Oil)</Description>
+    <Authors>keyxp</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+    <AssemblyName>Simple Buff 4 Modern Units Resource</AssemblyName>
+    <RootNamespace>Simple Buff 4 Modern Units Resource</RootNamespace>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="SR_ArtilleryNoOil_ID"><Properties><LoadOrder>100000</LoadOrder></Properties><File>Ingame/Data.sql</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="ArtilleryNoOil.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Ingame\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ingame\Data.sql">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>
