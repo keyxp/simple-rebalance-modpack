@@ -2,10 +2,10 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>Infantry No Oil</Name>
+    <Name>[SR] Infantry No Oil</Name>
     <Guid>3c94fcd3-055c-4ded-b9e0-7318dc330c6e</Guid>
     <ProjectGuid>{5a699767-fc9d-4667-b417-0b01e5fa8d4e}</ProjectGuid>
-    <ModVersion>2</ModVersion>
+    <ModVersion>1</ModVersion>
     <Teaser>Infantry no longer require Oil</Teaser>
     <Description>Infantry(including UU): require no resources(instead of Oil)</Description>
     <Authors>keyxp</Authors>

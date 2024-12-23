@@ -2,10 +2,10 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>Specialist One More Yield</Name>
+    <Name>[SR] Specialist One More Yield</Name>
     <Guid>9fa877f4-16d0-4f40-aefd-e205586009dc</Guid>
     <ProjectGuid>6dc74e98-ab2a-465a-ba84-7df50c1c8cca</ProjectGuid>
-    <ModVersion>2</ModVersion>
+    <ModVersion>1</ModVersion>
     <Teaser>All specailists now give one more yield</Teaser>
     <Description>Scientist: +3(instead of 2) [ICON_SCIENCE] Science[NEWLINE][NEWLINE]Priest: +3(instead of 2) [ICON_FAITH] Faith[NEWLINE][NEWLINE]Commander: +2(instead of 1) [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold[NEWLINE][NEWLINE]Captain: +1 [ICON_FOOD] Food and +4(instead of 2) [ICON_GOLD] Gold[NEWLINE][NEWLINE]Merchant: +6(instead of 4) [ICON_GOLD] Gold[NEWLINE][NEWLINE]Engineer: +3(instead of 2) [ICON_PRODUCTION] Production[NEWLINE][NEWLINE]Artist: +3(instead of 2) [ICON_CULTURE] Culture[NEWLINE][NEWLINE][NEWLINE]Language: en-US, ko-KR</Description>
     <Authors>keyxp</Authors>

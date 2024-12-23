@@ -2,10 +2,10 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>Wall Half HP</Name>
+    <Name>[SR] Wall Half HP</Name>
     <Guid>1ab894ab-fc53-4364-93d8-a54436dd7de5</Guid>
     <ProjectGuid>16d92d66-c1dc-488a-8839-2bc31c55ff67</ProjectGuid>
-    <ModVersion>3</ModVersion>
+    <ModVersion>2</ModVersion>
     <Teaser>All walls now give only half HP</Teaser>
     <Description>All walls(including UB): 50(instead of 100) Outer defense[NEWLINE][NEWLINE]Steel: 200(instead of 400) Fortification Strength[NEWLINE][NEWLINE][NEWLINE]Language: en-US, ko-KR</Description>
     <Authors>keyxp</Authors>
