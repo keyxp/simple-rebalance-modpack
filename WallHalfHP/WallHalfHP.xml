@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects..GameArtSpecification>
   <id>
-    <name text="Simple_Buff_Specialists_Yields"/>
-    <id text="9fa877f4-16d0-4f40-aefd-e205586009dc"/>
+    <name text="WallHalfHP"/>
+    <id text="1ab894ab-fc53-4364-93d8-a54436dd7de5"/>
   </id>
   <artConsumers>
     <Element>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# ModBuddy Solution File, Format Version 12.00
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "ArtilleryNoOil", "ArtilleryNoOil\ArtilleryNoOil.civ6proj", "{2AFEAAA9-F10E-4B21-B49F-AE48EF92022F}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "SpecialistOneMoreYield", "SpecialistOneMoreYield\SpecialistOneMoreYield.civ6proj", "{6DC74E98-AB2A-465A-BA84-7DF50C1C8CCA}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "InfantryNoOil", "InfantryNoOil\InfantryNoOil.civ6proj", "{5A699767-FC9D-4667-B417-0B01E5FA8D4E}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "WallHalfHP", "WallHalfHP\WallHalfHP.civ6proj", "{16D92D66-C1DC-488A-8839-2BC31C55FF67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Civ6 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AFEAAA9-F10E-4B21-B49F-AE48EF92022F}.Default|Civ6.ActiveCfg = Default|Civ6
+		{2AFEAAA9-F10E-4B21-B49F-AE48EF92022F}.Default|Civ6.Build.0 = Default|Civ6
+		{6DC74E98-AB2A-465A-BA84-7DF50C1C8CCA}.Default|Civ6.ActiveCfg = Default|Civ6
+		{6DC74E98-AB2A-465A-BA84-7DF50C1C8CCA}.Default|Civ6.Build.0 = Default|Civ6
+		{5A699767-FC9D-4667-B417-0B01E5FA8D4E}.Default|Civ6.ActiveCfg = Default|Civ6
+		{5A699767-FC9D-4667-B417-0B01E5FA8D4E}.Default|Civ6.Build.0 = Default|Civ6
+		{16D92D66-C1DC-488A-8839-2BC31C55FF67}.Default|Civ6.ActiveCfg = Default|Civ6
+		{16D92D66-C1DC-488A-8839-2BC31C55FF67}.Default|Civ6.Build.0 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

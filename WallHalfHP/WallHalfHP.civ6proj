@@ -2,12 +2,12 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>Simple Nerf Walls HP</Name>
+    <Name>Wall Half HP</Name>
     <Guid>1ab894ab-fc53-4364-93d8-a54436dd7de5</Guid>
     <ProjectGuid>16d92d66-c1dc-488a-8839-2bc31c55ff67</ProjectGuid>
-    <ModVersion>2</ModVersion>
-    <Teaser>Decrease outer defense HPs of walls and Steel</Teaser>
-    <Description>All walls: 50(instead of 100) Outer defense[NEWLINE][NEWLINE]Steel: 200(instead of 400) Fortification Strength[NEWLINE][NEWLINE][NEWLINE]Language: en-US, ko-KR</Description>
+    <ModVersion>3</ModVersion>
+    <Teaser>All walls now give only half HP</Teaser>
+    <Description>All walls(including UB): 50(instead of 100) Outer defense[NEWLINE][NEWLINE]Steel: 200(instead of 400) Fortification Strength[NEWLINE][NEWLINE][NEWLINE]Language: en-US, ko-KR</Description>
     <Authors>keyxp</Authors>
     <SpecialThanks>
     </SpecialThanks>
@@ -18,13 +18,13 @@
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
     <AssemblyName>Simple Nerf Walls HP</AssemblyName>
     <RootNamespace>Simple Nerf Walls HP</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="SN_Walls_HP_ID"><Properties><LoadOrder>100000</LoadOrder></Properties><File>Ingame/Data.sql</File></UpdateDatabase><UpdateText id="SN_Walls_HP_IT"><Properties><LoadOrder>100000</LoadOrder></Properties><File>Ingame/Text_en_US.xml</File><File>Ingame/Text_ko_KR.xml</File></UpdateText></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="SR_WallHalfHP_ID"><Properties><LoadOrder>100000</LoadOrder></Properties><File>Ingame/Data.sql</File></UpdateDatabase><UpdateText id="SR_WallHalfHP_IT"><Properties><LoadOrder>100000</LoadOrder></Properties><File>Ingame/Text_en_US.xml</File><File>Ingame/Text_ko_KR.xml</File></UpdateText></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="Simple_Nerf_Walls_HP.Art.xml" />
+    <None Include="WallHalfHP.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Ingame\" />
