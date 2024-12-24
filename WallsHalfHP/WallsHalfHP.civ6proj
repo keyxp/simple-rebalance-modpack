@@ -5,8 +5,8 @@
     <Name>SRM: Walls Half HP</Name>
     <Guid>1ab894ab-fc53-4364-93d8-a54436dd7de5</Guid>
     <ProjectGuid>16d92d66-c1dc-488a-8839-2bc31c55ff67</ProjectGuid>
-    <ModVersion>6</ModVersion>
-    <Teaser>Every walls gives only half HP</Teaser>
+    <ModVersion>7</ModVersion>
+    <Teaser>Every walls now only gives half HP</Teaser>
     <Description>Ancient Walls: 50 HP(from 100)[NEWLINE]Medieval Walls: 50 HP(from 100)[NEWLINE]Renaissance Walls: 50 HP(from 100)[NEWLINE][NEWLINE]Steel: 200 HP(from 400)[NEWLINE][NEWLINE]Language: en-US, ko-KR</Description>
     <Authors>keyxp</Authors>
     <SpecialThanks>

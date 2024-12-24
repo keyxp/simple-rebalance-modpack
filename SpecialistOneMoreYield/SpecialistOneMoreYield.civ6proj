@@ -5,8 +5,8 @@
     <Name>SRM: Specialist One More Yield</Name>
     <Guid>9fa877f4-16d0-4f40-aefd-e205586009dc</Guid>
     <ProjectGuid>6dc74e98-ab2a-465a-ba84-7df50c1c8cca</ProjectGuid>
-    <ModVersion>9</ModVersion>
-    <Teaser>Every specialist gives one more yield</Teaser>
+    <ModVersion>10</ModVersion>
+    <Teaser>Every specialist now gives one more yield</Teaser>
     <Description>Scientist: 3[ICON_SCIENCE](from 2)[NEWLINE]Priest: 3[ICON_FAITH](from 2)[NEWLINE]Commander: 2[ICON_PRODUCTION](from 1), 2[ICON_GOLD][NEWLINE]Captain: 1[ICON_FOOD], 4[ICON_GOLD](from 2)[NEWLINE]Merchant: 6[ICON_GOLD](from 4)[NEWLINE]Engineer: 3[ICON_PRODUCTION](from 2)[NEWLINE]Artist: 3[ICON_CULTURE](from 2)[NEWLINE][NEWLINE]Language: en-US, ko-KR</Description>
     <Authors>keyxp</Authors>
     <SpecialThanks>

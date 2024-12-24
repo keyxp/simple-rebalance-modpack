@@ -5,8 +5,8 @@
     <Name>SRM: Infantry No Oil</Name>
     <Guid>3c94fcd3-055c-4ded-b9e0-7318dc330c6e</Guid>
     <ProjectGuid>{5a699767-fc9d-4667-b417-0b01e5fa8d4e}</ProjectGuid>
-    <ModVersion>5</ModVersion>
-    <Teaser>Infantry does not require oil</Teaser>
+    <ModVersion>6</ModVersion>
+    <Teaser>Infantry no longer requires oil</Teaser>
     <Description>Infantry: 0[ICON_RESOURCE_OIL](from 1)</Description>
     <Authors>keyxp</Authors>
     <SpecialThanks>

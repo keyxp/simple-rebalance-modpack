@@ -5,8 +5,8 @@
     <Name>SRM: Artillery No Oil</Name>
     <Guid>c441219e-b6c8-44c4-8a3b-e232c70fc2aa</Guid>
     <ProjectGuid>2afeaaa9-f10e-4b21-b49f-ae48ef92022f</ProjectGuid>
-    <ModVersion>3</ModVersion>
-    <Teaser>Artillery does not require oil</Teaser>
+    <ModVersion>4</ModVersion>
+    <Teaser>Artillery no longer requires oil</Teaser>
     <Description>Artillery: 0[ICON_RESOURCE_OIL](from 1)</Description>
     <Authors>keyxp</Authors>
     <SpecialThanks>
