@@ -9,7 +9,7 @@ Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "SpecialistOneMoreYield", "S
 EndProject
 Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "InfantryNoOil", "InfantryNoOil\InfantryNoOil.civ6proj", "{5A699767-FC9D-4667-B417-0B01E5FA8D4E}"
 EndProject
-Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "WallHalfHP", "WallHalfHP\WallHalfHP.civ6proj", "{16D92D66-C1DC-488A-8839-2BC31C55FF67}"
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "WallsHalfHP", "WallsHalfHP\WallsHalfHP.civ6proj", "{16D92D66-C1DC-488A-8839-2BC31C55FF67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
